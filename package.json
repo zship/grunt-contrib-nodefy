@@ -2,7 +2,7 @@
 	"name": "grunt-contrib-nodefy",
 	"title": "grunt-contrib-nodefy",
 	"description": "Grunt task to convert AMD modules to CommonJS",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"author": "Zach Shipley <zach@zachshipley.com>",
 	"license": "MIT",
 	"dependencies": {

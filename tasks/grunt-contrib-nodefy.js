@@ -3,7 +3,6 @@ module.exports = function(grunt) {
 	'use strict';
 
 
-	var path = require('path');
 	var async = require('async');
 	var amd = require('grunt-lib-amd');
 	var nodefy = require('nodefy');
@@ -37,9 +36,7 @@ module.exports = function(grunt) {
 						return;
 					}
 
-					var dest = path.resolve(files.dest, amd.fileToModuleName(file, rjsconfig) + '.js');
-					grunt.log.writeln(file + ' -> ' + path.relative(process.cwd(), dest));
-					grunt.file.write(dest, result, 'utf-8');
+					grunt.file.write(files.dest, result, 'utf-8');
 					callback(null);
 				});
 
