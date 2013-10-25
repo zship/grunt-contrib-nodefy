@@ -4,6 +4,11 @@
 	"description": "Grunt task to convert AMD modules to CommonJS",
 	"version": "0.2.1",
 	"author": "Zach Shipley <zach@zachshipley.com>",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:zship/grunt-contrib-nodefy.git"
+	},
+	"bugs": "https://github.com/zship/grunt-contrib-nodefy/issues/",
 	"license": "MIT",
 	"dependencies": {
 		"grunt": "0.4.x",
